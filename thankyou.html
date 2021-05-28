@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!---=== UNICORNS ===-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+    <!---=== CSS ===-->
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assests/css/tvstyle.scss"> -->
+
+    <title>Yuvraj Angula</title>
+    <style>
+    @font-face {
+        font-family: 'Poppins', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    }
+   
+    video{
+        position: absolute;
+        top: 1;
+        left: 225px;
+    }
+    svg{
+        overflow: hidden;
+        width: 374px;
+        position: absolute;
+        top: 1;
+        left: 225px;
+        height: 88;   
+    }
+    svg text{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    svg rect{
+        fill: white;
+    }
+    svg > rect {
+        text-rendering: optimizeLegibility;
+        
+        -webkit-mask: url(#mask);
+        mask: url(mask);
+    }
+
+    </style>
+</head>
+<body>
+    <div class="home__data">
+        <h1 class="home__title" style="text-align: center;">Thank You for reaching out.</h1>
+        <video autoplay loop playsinline muted>
+            <source src="assests/video/gradient.mp4" type="video/mp4">
+        </video>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 80" preserveAspectRatio="xMidYMid slice">
+           <defs>
+               <mask id="mask" x="0" y="0" width="374" height="88">
+                   <rect x="0" y="0" width="374" height="88"></rect>
+                   <text x="72" y="50">Yuvraj Angula</text>
+               </mask>
+           </defs> 
+           <rect x="0" y="0" width="374" height="88"></rect>
+        </svg>
+    </div>
+    </div>
+    <img src="assests/img/byeillus.png" alt="Bye Illustration" style="height: 200px; width: 200px; display: block;
+    margin-left: auto;
+    margin-right: auto;">
+        <div class="about__buttons" style="margin: auto; margin-top: 5rem; align-items: center; display: flex; justify-content: center;">
+            <a href="index.html" class="button button--flex">
+                Go Back
+                <i class="uil uil-message button__icon"></i>
+            </a>
+        </div> 
+</body>
+</html>
