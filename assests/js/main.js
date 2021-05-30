@@ -137,3 +137,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// Popup
+function popup() {
+    var popup = document.getElementById("downloadPopup");
+    popup.classList.toggle("show");
+  
+    if(popup.classList.contains("show")) // Check if the popup is shown
+       setTimeout(() => popup.classList.remove("show"), 3000) // If yes hide it after 10000 milliseconds
+  }
